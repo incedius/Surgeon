@@ -1,14 +1,14 @@
 {
-	"disableAutoUpdate": false,
-	"name": "surgeon",
-	"author": "gievepix",
-	"description": "A tera-proxy module that is able to change your character's race, gender or appearance.",
-	"version": "3.0",
-	"options": {
-		"niceName": "Surgeon",
-		"settingsVersion": 3,
-		"settingsFile": "presets.json",
-		"settingsMigrator": "settings_migration.js"
-	},
-	"servers": ["https://raw.githubusercontent.com/gievepix/surgeon/master/"]
+    "disableAutoUpdate": false,
+    "name": "surgeon",
+    "author": "gievepix, Incedius",
+    "description": "A tera-proxy module that is able to change your character's race, gender or appearance.",
+    "version": "3.1",
+    "options": {
+        "niceName": "Surgeon",
+        "settingsVersion": 3,
+        "settingsFile": "presets.json",
+        "settingsMigrator": "settings_migration.js"
+    },
+    "servers": ["https://raw.githubusercontent.com/gievepix/surgeon/master/"]
 }

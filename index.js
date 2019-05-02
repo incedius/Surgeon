@@ -55,7 +55,7 @@ module.exports = function surgeon(mod) {
 		charId,
 		loginMsg = '';
 
-	mod.hook('S_LOGIN', 12, event => {
+	mod.hook('S_LOGIN', mod.majorPatchVersion >= 81 ? 13 : 12, {"order": -10001}, event => {	
 		isLogin = true;
 		marrow = false;
 		inSurgeonRoom = false;

@@ -1,21 +1,23 @@
 {
-	"files": {
-		"index.js": "0e811089a9adb7b0f4ec7d818d50be4d9f30da4d89f52ec06be74595e4060645",
-		"README.md": "c923cfc383cf4ee6c38ed69c968ed9bf94d60e859c2e9ccb04b544ffc0d7ce37",
-		"settings_migration.js": "232c1787a6c7b38b2c4143e8e17e71d83bea1d134c3b210c1ecc1c62ca0120ae",
-		"module.json": "97d992ab919e84f94e234481af169a63d583e93c64cc86f1d96f494ea2fe54b9"
-	},
-	"defs": {
-		"C_CANCEL_CHANGE_USER_APPEARANCE": 1,
-		"C_COMMIT_CHANGE_USER_APPEARANCE": 2,
-		"C_RETURN_TO_LOBBY": 1,
-		"C_SELECT_USER": 1,
-		"S_GET_USER_LIST": 15,
-		"S_END_CHANGE_USER_APPEARANCE": 1,
-		"S_LOGIN": 12,
-		"S_PREPARE_RETURN_TO_LOBBY": 1,
-		"S_START_CHANGE_USER_APPEARANCE": 3,
-		"S_UNICAST_TRANSFORM_DATA": 5,
-		"S_USER_EXTERNAL_CHANGE": 7
-	}
+    "files": {
+        "LICENSE.md": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
+        "README.md": "e35d1d4d674704f99444e9960dbe209bf9a902c8535e489ba9e5271c47a27e6e",
+        "index.js": "37b36a5c480bded65c016d823058b3049e094919d91f23a5b448602a4c425313",
+        "module.json": "9e9d5e3c34af4904f6c288c4e69c6819772d5cc1958f20f3839971ec0c865c00",
+        "settings_migration.js": "7df6bccbddc20dde90c2a41a9fd1eda1207f2dd1137d78c7cae8f1d5e048a24e"
+    },
+    "defs": {
+        "C_CANCEL_CHANGE_USER_APPEARANCE": 1,
+        "C_COMMIT_CHANGE_USER_APPEARANCE": 2,
+        "C_RETURN_TO_LOBBY": 1,
+        "C_SELECT_USER": 1,
+        "S_END_CHANGE_USER_APPEARANCE": 1,
+        "S_GET_USER_LIST": [14,15],
+        "S_LOGIN": [12,13],
+        "S_PREPARE_RETURN_TO_LOBBY": 1,
+        "S_SPAWN_ME": "raw",
+        "S_START_CHANGE_USER_APPEARANCE": 3,
+        "S_UNICAST_TRANSFORM_DATA": 5,
+        "S_USER_EXTERNAL_CHANGE": 7
+    }
 }
