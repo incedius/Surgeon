@@ -10,5 +10,5 @@
         "settingsFile": "presets.json",
         "settingsMigrator": "settings_migration.js"
     },
-    "servers": ["https://raw.githubusercontent.com/gievepix/surgeon/master/"]
+    "servers": ["https://raw.githubusercontent.com/incedius/surgeon/master/"]
 }
