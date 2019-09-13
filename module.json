@@ -3,7 +3,7 @@
     "name": "surgeon",
     "author": "gievepix, Incedius",
     "description": "A tera-proxy module that is able to change your character's race, gender or appearance.",
-    "version": "3.1",
+    "version": "3.1.1",
     "options": {
         "niceName": "Surgeon",
         "settingsVersion": 3,

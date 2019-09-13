@@ -2,8 +2,8 @@
     "files": {
         "LICENSE.md": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
         "README.md": "e35d1d4d674704f99444e9960dbe209bf9a902c8535e489ba9e5271c47a27e6e",
-        "index.js": "37b36a5c480bded65c016d823058b3049e094919d91f23a5b448602a4c425313",
-        "module.json": "d6196e8e5fcd01c6a350c85f50cfdde7547e58209201d034aada3caf740f93fa",
+        "index.js": "924b982167fa6214ea42b820c3c7c9291ee9d86538b6fd52a7d3837980b76d8b",
+        "module.json": "98c4aa8f7ddc7d61ef68b650acc36afdcace4bfeaa06b42cdb1976d7a265bdcf",
         "settings_migration.js": "7df6bccbddc20dde90c2a41a9fd1eda1207f2dd1137d78c7cae8f1d5e048a24e"
     },
     "defs": {
@@ -12,12 +12,12 @@
         "C_RETURN_TO_LOBBY": 1,
         "C_SELECT_USER": 1,
         "S_END_CHANGE_USER_APPEARANCE": 1,
-        "S_GET_USER_LIST": [14,15],
+        "S_GET_USER_LIST": 16,
         "S_LOGIN": [12,13],
         "S_PREPARE_RETURN_TO_LOBBY": 1,
         "S_SPAWN_ME": "raw",
         "S_START_CHANGE_USER_APPEARANCE": 3,
-        "S_UNICAST_TRANSFORM_DATA": 5,
+        "S_UNICAST_TRANSFORM_DATA": 6,
         "S_USER_EXTERNAL_CHANGE": 7
     }
 }
